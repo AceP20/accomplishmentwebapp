@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #008000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0px auto;
+}
+
+#main-title{
+    width: 317px;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin: 20px auto 0px;
+    
+}
+
+#endorsement-input{
+    color: #fff;
+    width: 300px;
+    height: 118px;
+    flex-shrink: 0;
+    background: #444059;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.name-input{
+    color: white;
+    width: 155px;
+    height: 40px;
+    margin: 10px 0px;
+    background: #444059;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#publish-button{
+    width:317px;
+    height: 61px;
+    flex-shrink: 0;
+    background: #CCFF33;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+h3{
+    color: #fff;
+    text-align: center;
+}
+
+#published-endorsement {
+    width: 320px;
+    background: white;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+h4{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: initial;
+}
+
+#separator {
+    border-bottom: 30px solid #008000;
+    width: 320px;
+}
+
+p{
+    padding-left: 20px;
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#like-button{
+    width: 50px;
+    margin-top: -50px;
+    height: 30px;
+    background: white;
+    margin-left: auto;
+    border:none;
+}
+
+#sender-name{
+    width:250px
+}
